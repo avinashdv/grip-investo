@@ -1,0 +1,99 @@
+.calculator {
+  background-color: hsl(214, 100%, 24%);
+  width: 100%;
+  height: auto;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+
+.calculator-Ip {
+  text-align: center;
+  color: white;
+}
+
+.calculator-blockOne {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px 40px 40px 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.calculator-btn {
+  background-color: #00b8b7;
+  border: 0;
+  padding: 12px;
+  border-radius: 14px;
+  color: white;
+  font-size: 22px;
+}
+
+.calculator-geo-btn:hover {
+  box-shadow: 2px 2px 4px #888888;
+}
+
+.calculator-cords {
+  color: black;
+  background-color: white;
+  border-radius: 14px;
+  min-width: 20%;
+  padding: 12px;
+}
+
+.calculator-blockTwo {
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 14px;
+  background-color: white;
+  max-width: 70%;
+  min-height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.calculator-loanCalcy {
+  width: 50%;
+  display: block;
+}
+
+.form-calc {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.form-calcInput {
+  border: 1px solid grey;
+  font-size: 22px;
+  border-radius: 4px;
+  width: 70%;
+  height: 40px;
+}
+
+.form-loan {
+  display: flex;
+  justify-content: space-between;
+}
+
+.calculator-blockThree {
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 14px;
+  background-color: white;
+  max-width: 70%;
+  min-height: 300px;
+}
+
+.calculator-results {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.calculator-op {
+  font-size: 34px;
+  text-align: center;
+}
+
+.form-loanSuccess {
+  color: hsl(214, 100%, 24%);
+}

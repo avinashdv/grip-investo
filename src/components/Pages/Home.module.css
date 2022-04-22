@@ -1,0 +1,30 @@
+.home {
+  background: #00b8b7;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-head {
+  background-color: #00357c;
+  padding: 12px;
+  color: white;
+}
+
+.home-button {
+  background-color: white;
+  color: #00357c;
+  text-decoration: none;
+  padding: 12px;
+  font-size: 22px;
+  border: 0;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+.home-button:hover {
+  box-shadow: 2px 2px 4px #888888;
+}
